@@ -9,6 +9,9 @@ image nfm = "night_full_moon.jpg"
 image mrm = "mrm.png"
 image mffaaf = "mffaaf.png"
 image bp = "bandlab_profile.png"
+image ecwls = "ecwls.png"
+image ims = "ims.png"
+image djpimi = "djpimi.png"
 
 default preferences.text_cps = 50
 
@@ -49,13 +52,11 @@ label sdtg:
     hide ds3
     hide nfm
     with fade
-    centered """The reason I play so many video games is not simple.\n{w}
-                The thrill of learning pattern recognition and\n
-                applying it to real life has been very beneficial to me."""
+    centered "The thrill of learning pattern recognition and\napplying it to real life has been very beneficial to me."
     
 label mffaaf:
     scene bg
-    with fade
+    with Dissolve(2.0)
     show mffaaf
     with fade
     ""
@@ -64,5 +65,24 @@ label mffaaf:
     "This is my Bandlab Profile.\n{w}That is where I publish music that I have produced."
     "In fact, the track that has been playing this whole time is one I call \"I Dream\""
     "I produce EDM but have been looking into how to make Trap music as I have taken a liking to it."
+
+label ecwls:
+    scene bg
+    with Dissolve(2.0)
+    show ecwls
+    with fade
+    ""
+    hide ecwls
+    with fade
+    "I love C#. {w}I am becoming more proficient with it every time I use it."
+    show ics
+    with fade
+    "This is a prototype for an Inventory Control System I made with C#."
+    hide ics
+    with fade
+    centered "I am currently developing a numerology calculator with cross-platform targets."
+
+label djpimi:
+    
 
 return
