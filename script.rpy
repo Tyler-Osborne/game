@@ -58,7 +58,11 @@ label mffaaf:
     with fade
     show mffaaf
     with fade
-
-    
+    ""
+    show bp
+    with fade
+    "This is my Bandlab Profile.\n{w}That is where I publish music that I have produced."
+    "In fact, the track that has been playing this whole time is one I call \"I Dream\""
+    "I produce EDM but have been looking into how to make Trap music as I have taken a liking to it."
 
 return
